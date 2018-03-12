@@ -132,7 +132,7 @@ ul.social-media-menu li {
 .social-media-menu li a[href*="linkedin.com"]::before{content:'\f0e1';}
 
 
-/* Accessibility*/
+/* Accessibility */
 
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -143,5 +143,106 @@ ul.social-media-menu li {
 	word-wrap: normal !important;
 }
 
+/* Contact Page */
+.nf-field-label label {
+	font-weight: 400 !important;	
+}
 
+input[type="button"], input[type="submit"] {
+	background-color: #45ac9d;
+	float: right;
+}
+	
+textarea#nf-field-3 {
+    border-color: rgb(191, 191, 191);
+    font-size: 16px;
+}
+
+textarea#nf-field-3:after {
+	border-color: red;
+}
+
+.contact-page {
+	width: 75%;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+span.ninja-forms-req-symbol {
+	display: none;
+}
+
+/* About Page */
+
+.main-services {
+	width: 100%;
+}
+
+.main-services h4 {
+	text-transform: uppercase;
+}
+
+.main-services h4, p {
+	text-align: center;
+	width: 100%;
+}	
+
+.about-services .about-site-content {
+	margin-top: 50px;
+	width: 80%;
+}
+
+.individual-service {
+	overflow: hidden;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.layout-services-a {
+	float: right;
+	margin-left: 3%;
+	width: 75%;
+}
+
+.layout-image-a {
+	float: left;
+	margin-right: 3%;
+}
+
+.layout-services-b {
+	float: left;
+	margin-right: 3%;
+	width: 75%;
+}
+
+.layout-image-b {
+	float: right;
+	margin-left: 3%;
+}
+
+.about-services p {
+	text-align: left;
+	float: left;
+}
+
+.services-contact-us {
+	margin-top: 50px;
+	border-top: 1px solid #bfbfbf;
+	width: 100%;
+	display: inline-block;
+	height: 5em;
+}
+
+.services-contact-us h2 {
+	float: left;
+	text-align: center;
+	width: 55%;
+	margin: 1.5em 0.5em 1em;
+}
+
+.services-contact-us .button {
+	float: right;
+	display: inline-block;
+	margin: 1.5em 8em 1em 0.5em;
+}
 
