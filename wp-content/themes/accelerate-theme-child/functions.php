@@ -45,3 +45,17 @@ function create_custom_post_types() {
 }
 
 add_action( 'init', 'create_custom_post_types' );
+
+   function widget_area_404() {
+    register_sidebar( array (
+        'name' => '404 Page',
+        'id' => '404',
+        'description' => __( 'Widgets placed here will be shown on the 404 Not Found.' ),
+        'before_widget' => '<div class="et_pb_post">',
+        'after_widget' => '</div>',
+        'before_title' => '<h4 class="widgettitle">',
+        'after_title' => '</h4>',
+        ));
+   } 
+
+ add_action( 'widgets_init', 'widget_area_404' );  

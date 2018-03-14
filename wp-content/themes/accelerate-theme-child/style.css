@@ -222,27 +222,61 @@ span.ninja-forms-req-symbol {
 
 .about-services p {
 	text-align: left;
-	float: left;
 }
 
 .services-contact-us {
-	margin-top: 50px;
+	margin: 50px auto;
 	border-top: 1px solid #bfbfbf;
-	width: 100%;
-	display: inline-block;
+	width: 90%;
+	max-width: 960px;
+	display: block;
 	height: 5em;
+	overflow: auto;
+	height: auto;
 }
 
 .services-contact-us h2 {
 	float: left;
 	text-align: center;
 	width: 55%;
-	margin: 1.5em 0.5em 1em;
+	margin: 2em 0.5em 0.5em;
 }
 
 .services-contact-us .button {
 	float: right;
 	display: inline-block;
-	margin: 1.5em 8em 1em 0.5em;
+	margin: 2em 8em 1em 0.5em;
 }
 
+/* 404 Not Found Styles */
+
+.error-main-content {
+	width: 100%;
+}
+
+.error-title {
+	color: #45ac9d;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	text-align: center;
+	padding: 10px;
+}
+
+.error-img {
+	width: 55%;
+	float: left;
+	border-radius: 15%;
+	margin-bottom: 75px;
+	margin-right: 10px;
+}
+
+.error-text {
+	text-align: left;
+	margin-left: 10px;
+	float: right;
+	width: 40%;	
+}
+
+.error-link {
+	color: #45ac9d;
+}
