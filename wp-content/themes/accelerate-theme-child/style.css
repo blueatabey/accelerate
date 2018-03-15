@@ -259,7 +259,7 @@ span.ninja-forms-req-symbol {
 	text-transform: uppercase;
 	letter-spacing: 0.25em;
 	text-align: center;
-	padding: 10px;
+	padding: 10px;	
 }
 
 .error-img {
@@ -279,4 +279,57 @@ span.ninja-forms-req-symbol {
 
 .error-link {
 	color: #45ac9d;
+}
+
+/* Twitter Feed Styles */
+
+.recent-tweets {
+	width: 44.75%;
+	float: right;
+	margin: 0 0 2em 4em;
+	padding-right: 50px;
+}
+
+.recent-tweets h4 {
+	font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+	color: #a6a6a6;
+	text-transform: uppercase;
+	margin: 2em 0 .5em;
+
+}
+
+#ctf .ctf-header-img {
+	display: none;
+	
+}
+
+.ctf-header-user {
+	background-color: orange;
+	float: left !important;
+	margin-left: 10px !important;
+
+}	
+
+#ctf .ctf-header-text {
+	background-color: yellow;
+	float: left;
+	
+}
+
+.ctf-tweet-content {
+	background-color: pink;
+	display: block
+	
+}
+
+#ctf .ctf-header {
+	border-bottom-color: #fff;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1280px) {
+	.recent-tweets {
+		float: left;
+	}
 }
