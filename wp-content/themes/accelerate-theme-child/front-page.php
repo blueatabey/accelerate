@@ -71,7 +71,8 @@ get_header(); ?>
 			<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 			</div>
-			<?php endif; ?>		
+			<?php endif; ?>	
+				<span class="tweet-follow"><a href="http://twitter.com/blueaccelerate" target="_blank"><p>Follow Us <i class="fa fa-chevron-right"></i></p></a></span>	
 		</section> <!-- .recent-tweets	 -->
 
 

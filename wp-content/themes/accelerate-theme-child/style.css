@@ -299,27 +299,43 @@ span.ninja-forms-req-symbol {
 }
 
 #ctf .ctf-header-img {
-	display: none;
-	
+	display: none;	
 }
 
-.ctf-header-user {
-	background-color: orange;
-	float: left !important;
-	margin-left: 10px !important;
-
-}	
+#ctf .ctf-header-text .ctf-header-user, #ctf .ctf-header-text p {
+	margin: 0 0 0 0 !important;
+}
 
 #ctf .ctf-header-text {
-	background-color: yellow;
-	float: left;
-	
+	float: left;	
 }
 
-.ctf-tweet-content {
-	background-color: pink;
-	display: block
-	
+#ctf .ctf-header-name {
+	font-size: x-large;
+}
+
+#ctf .ctf-header-follow {
+	display: none !important;	
+}
+
+#ctf .ctf-tweet-content p {
+	text-align: left;	
+}
+
+.tweet-follow {
+	display: inline-block;
+}
+
+.tweet-follow p {
+	text-transform: uppercase;
+	color: #45ac9d;
+	text-align: left;
+	font-weight: bold;
+}
+
+.fa-chevron-right {
+	color: #45ac9d;
+
 }
 
 #ctf .ctf-header {
