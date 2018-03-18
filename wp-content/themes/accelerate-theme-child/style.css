@@ -342,6 +342,40 @@ span.ninja-forms-req-symbol {
 	border-bottom-color: #fff;
 }
 
+/* Newsletter Sign Up */
+
+aside#text-2.widget.widget_text {
+	height: 300px;
+}
+
+#mc_embed_signup_scroll label {
+	 color: #45ac9d;
+   font: 17px/1.65 'Open Sans', Arial, sans-serif;
+   text-transform: uppercase;
+   margin: 1em auto;
+}
+
+#mc_embed_signup input.email {
+	width: 100% !important;
+	font-style: italic;
+}
+
+
+#mc_embed_signup .button {
+	background-color: #45ac9d !important;
+	float: left;
+	margin: 0 0 10px 0 !important;
+	letter-spacing: 0.25em;
+	width: 100% !important;
+	padding-bottom: 10px;
+}
+
+/* Sharing Social Icons */
+
+.sfsi_socialwpr {
+	margin: 20px 0 20px 0;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 1280px) {
