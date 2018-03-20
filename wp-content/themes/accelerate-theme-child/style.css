@@ -295,7 +295,6 @@ span.ninja-forms-req-symbol {
 	color: #a6a6a6;
 	text-transform: uppercase;
 	margin: 2em 0 .5em;
-
 }
 
 #ctf .ctf-header-img {
@@ -360,7 +359,6 @@ aside#text-2.widget.widget_text {
 	font-style: italic;
 }
 
-
 #mc_embed_signup .button {
 	background-color: #45ac9d !important;
 	float: left;
@@ -374,6 +372,10 @@ aside#text-2.widget.widget_text {
 
 .sfsi_socialwpr {
 	margin: 20px 0 20px 0;
+}
+
+.sfsi_footerLnk {
+	display: none;
 }
 
 /* Media Queries */
